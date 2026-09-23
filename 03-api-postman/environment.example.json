@@ -1,0 +1,11 @@
+{
+  "id": "restful-booker-env-example",
+  "name": "Restful Booker Environment Example",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "https://automationintesting.online",
+      "enabled": true
+    }
+  ]
+}
