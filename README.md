@@ -3,6 +3,7 @@
 ## Project Overview
   * This repository demonstrates intermediate-to-advanced manual QA skills, including UI exploratory testing, Chrome Devtools network analysis, REST API testing via Postman, database validation via SQL and  basic perfomance testing using  Apache JMeter
   * Disclaimer: This is an educational QA portfolio project. All testing activities, including basic load testing, are performed safely and do not represent a commercial audit or stress test.
+  * SQL exercises are based on a separate educational data model and do not represent direct access to the application database.
   
 
 ## Application Under Test (AUT)
