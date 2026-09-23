@@ -26,7 +26,7 @@
 * **Steps:**
   1. Leave all fields (Name, Email, Phone, Subject, Message) empty.
   2. Click the "Submit" button.
-* **Expected Result:** The system prevents form submission and displays validation error messages for the required fields.
+* **Expected Result:** The system prevents form submission and displays red validation error messages (e.g., "Email may not be blank") under the required fields.
 * **Status:** Passed
 
 ---
