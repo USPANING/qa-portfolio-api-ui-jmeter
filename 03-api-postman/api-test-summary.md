@@ -71,8 +71,8 @@ All responses are recorded based on live execution.
   }
 
 ## 3. Send an invalid message (Negative Test)
-* **Endpoint:** `https://automationintesting.online/api/room`
-* **Method:** `GET`
+* **Endpoint:** `https://automationintesting.online/api/message`
+* **Method:** `POST`
 * **Actual Status Code:** 400 Bad Request
 * **Response Time:** 174ms
 * **Response Body (Actual JSON excerpt / summary):**
