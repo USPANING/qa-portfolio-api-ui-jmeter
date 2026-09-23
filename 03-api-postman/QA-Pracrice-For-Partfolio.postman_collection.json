@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "28206f4a-8dcc-4ad1-b3df-b5bbbfa06bb7",
+		"name": "QA-Pracrice-For-Partfolio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34074412"
+	},
+	"item": [
+		{
+			"name": "INFO About rooms",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://automationintesting.online/api/room",
+					"protocol": "https",
+					"host": [
+						"automationintesting",
+						"online"
+					],
+					"path": [
+						"api",
+						"room"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send a message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Vadym\",\r\n  \"email\": \"testqa@gmail.com\",\r\n  \"phone\": \"+48123929239292\",\r\n  \"subject\": \"Test Subject for practising my skills\",\r\n  \"description\": \"Hi, I'm just test description for practice\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://automationintesting.online/api/message",
+					"protocol": "https",
+					"host": [
+						"automationintesting",
+						"online"
+					],
+					"path": [
+						"api",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send a message Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Vadym\",\r\n  \"email\": \"testqa@gmail.com\",\r\n  \"phone\": \"+48123929239292\",\r\n  \"subject\": \"Test Subject for practising my skills\",\r\n  \"description\": \"Hi, I'm just test description for practice\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://automationintesting.online/api/message",
+					"protocol": "https",
+					"host": [
+						"automationintesting",
+						"online"
+					],
+					"path": [
+						"api",
+						"message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
