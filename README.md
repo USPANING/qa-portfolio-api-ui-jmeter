@@ -1,7 +1,9 @@
-# QA Partfolio Advanced Manual QA and Technical Testing Project
+# QA Portfolio Advanced Manual QA and Technical Testing Project
 
 ## Project Overview
   * This repository demonstrates intermediate-to-advanced manual QA skills, including UI exploratory testing, Chrome Devtools network analysis, REST API testing via Postman, database validation via SQL and  basic perfomance testing using  Apache JMeter
+  * Disclaimer: This is an educational QA portfolio project. All testing activities, including basic load testing, are performed safely and do not represent a commercial audit or stress test.
+  
 
 ## Application Under Test (AUT)
   * Application name: Restful Booker Platform
@@ -10,7 +12,7 @@
 
 ## Tech Stack and Skills Demonstrated
   * UI and Browser Tools: Google Chrome, Chrome Devtools (Network, Console, Application)
-  * API Testing: Postman (Collectiona, Environments, Asserions)
+  * API Testing: Postman (Collections, Environments, Asserions)
   * Perfomance Testing: Apache JMeter
   * Database Practice: SQL Queries, relational schemas, validation notes
   * Version Control: GitHub, Git
