@@ -69,4 +69,24 @@ All responses are recorded based on live execution.
   {
     "success": true
   }
+
+## 3. Send an invalid message (Negative Test)
+* **Endpoint:** `https://automationintesting.online/api/room`
+* **Method:** `GET`
+* **Actual Status Code:** 400 Bad Request
+* **Response Time:** 174ms
+* **Response Body (Actual JSON excerpt / summary):**
+  ```json
+  [
+    "Message may not be blank",
+    "Message must be set",
+    "Email must be set",
+    "Phone may not be blank",
+    "Subject must be set",
+    "Email may not be blank",
+    "Name must be set",
+    "Phone must be set",
+    "Subject may not be blank",
+    "Name may not be blank"
+  ]
   
