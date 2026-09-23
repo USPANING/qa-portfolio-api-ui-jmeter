@@ -12,9 +12,9 @@
 * **Request Payload (Data sent):**
   ```json
   {
-    description : "Hey, I'm just worried about you, can you tell me that everything fine?"
-    email: "john1978rod@gmail.com"
-    name: "John Rod"
-    phone: "+48 939 249 334"
-    subject: "Hey! How are you doing?"
-  }
+  "description": "Hey, I'm just worried about you, can you tell me that everything fine?",
+  "email": "john1978rod@gmail.com",
+  "name": "John Rod",
+  "phone": "+48939249334",
+  "subject": "Hey! How are you doing?"
+}
